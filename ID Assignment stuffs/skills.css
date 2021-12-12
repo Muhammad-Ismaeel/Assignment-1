@@ -1,0 +1,54 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: salmon;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:gray;
+  }
+  
+  .active {
+    background-color: cyan;
+  }
+  body{
+    background-color: plum;
+    background-size: cover;
+    overflow: hidden;
+}
+h1{
+  padding: 3%;
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: yellow;
+}
+.skill{
+  font-size: 20px;
+  background-color: beige;
+  padding: 3%;
+  width: 50%;
+}
+.skills{
+  font-size: 20px;
+  background-color: beige;
+  position: relative;
+  left:38px;
+}

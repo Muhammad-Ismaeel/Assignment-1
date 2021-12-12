@@ -1,0 +1,75 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a{
+    display: block;
+    color: salmon;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:gray;
+  }
+  
+  .active {
+    background-color: cyan;
+  }
+  body{
+    background-color: plum;
+    background-size: cover;
+    overflow: hidden;
+}
+h1{
+    color:red;
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+
+.school{
+  color:royalblue;
+  font-size: 30px;
+  top: 40px;
+  position: relative;
+  padding:1%;
+}
+.other{
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  position:relative;
+  left: 450px;
+  bottom: 120px;
+  padding: 10px;
+  background-color: hotpink;
+  
+  
+}
+.para{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  position:relative;
+  left: 530px;
+  bottom: 143px;
+  background-color: hotpink;
+  padding: 5px;
+  text-align: left;
+  width: 65%;
+}
+
