@@ -1,5 +1,5 @@
 # Assignment-1
-# Your Project's Name
+
 This project is a portfolio of my own which shows the necessary things to convince a copan to hire me such as an about me section so on and so forth. With this, I am able to present mself better and show the company I am worthy of getting hired b them.
  
 ## Design Process
